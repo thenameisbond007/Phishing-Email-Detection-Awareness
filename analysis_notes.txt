@@ -1,0 +1,113 @@
+PHISHING EMAIL ANALYSIS NOTES
+Name: [Write Your Name Here]
+Date: May 2026
+Internship: Future Interns – Cybersecurity
+
+================================================
+EMAIL 1 — Enron Sally Beck
+================================================
+Subject: Global Risk Management Operations
+From: david.port@enron.com
+
+Red Flags Found:
+- None
+
+Classification: SAFE
+
+Why I think this is Safe:
+This email is a professional internal announcement from Enron company.
+A senior employee named David Port is congratulating his colleague Sally
+Beck on her new role. The email has no suspicious links, no urgency, no
+threats, and is written in a formal and respectful tone. It looks exactly
+like a real workplace email between two colleagues.
+
+================================================
+EMAIL 2 — Linux Mailing List
+================================================
+Subject: Re: IDE maintainer discussion
+From: kate@linux.ie
+
+Red Flags Found:
+- None
+
+Classification: SAFE
+
+Why I think this is Safe:
+This is a reply in a technical discussion happening on the Irish Linux
+Users Group mailing list. The sender Kate is responding to another
+developer's opinion about software maintenance. There are no links asking
+you to click anything, no urgency, and the email even includes proper
+mailing list unsubscribe information at the bottom which is a sign of a
+legitimate email list.
+
+================================================
+EMAIL 3 — Email Security Upgrade Notice
+================================================
+Subject: Learn more about our updated email security and server maintenance
+From: "Email Security" — no real company or domain shown
+
+Red Flags Found:
+- Sender name is just "Email Security" with no actual company behind it
+- Greeting uses your email address instead of your real name
+- Threatens that your account will be deleted in 7 days if you don't act
+- Creates panic with a 24 hour deadline
+- Has a big orange "Click here to verify" button which is a common phishing trap
+- No company logo, no contact number, no real identity
+
+Classification: PHISHING
+
+Why I think this is Phishing:
+This email is trying to scare you into clicking a button by threatening
+to delete your account. No real email provider sends such vague threats
+without showing who they are. The sender has hidden their real identity
+and is using urgency and fear to trick you into clicking the verify button,
+which would likely take you to a fake website to steal your login details.
+
+================================================
+EMAIL 4 — Password Expiration Warning
+================================================
+Subject: Password Expiration (ID=71562131125152118195126)
+From: email@example.com
+
+Red Flags Found:
+- Greeting is just the word "help," which makes no sense
+- The subject line has a very long random ID number to look technical and official
+- Threatens your password will expire in just 1 day to create panic
+- Has a "Keep My Password" button which is designed to steal credentials
+- Says "We won't be held responsible for any information lost" — no real company says this
+- At the bottom it says "This mail has been scanned and considered safe" which is fake
+- Signed by email@example.com which is a placeholder, not a real company
+
+Classification: PHISHING
+
+Why I think this is Phishing:
+This email is full of manipulation tricks. The random ID number, the odd
+greeting, the 1 day deadline, and the disclaimer at the bottom are all
+designed to confuse and scare you. A real company managing your email
+would address you by your actual name and would never say they are not
+responsible for information loss. The "Keep My Password" button is a trap
+to steal your login credentials.
+
+================================================
+EMAIL 5 — Messages Delivery Failure
+================================================
+Subject: Notice: Undelivered Mail Returned to Sender
+From: example.com
+
+Red Flags Found:
+- Sender domain is just "example.com" which is too generic to be real
+- Claims 7 messages are stuck but gives no details about what messages
+- The "Review" and "Delete" links have no real destination shown
+- Signed by "Mail Administrator" with no actual name or company
+- The exact timestamp given looks artificially added to seem official
+
+Classification: SUSPICIOUS
+
+Why I think this is Suspicious:
+This email looks like it could be either a real delivery failure notice
+or a fake one. Real mail servers do send bounce back messages sometimes,
+but a genuine one would clearly show your email provider name and give
+more specific details about which emails failed. Because the sender is
+too vague and the links have no clear destination, I cannot confirm it
+is safe. I would not click any links in this email and would check
+directly by logging into my email account instead.
